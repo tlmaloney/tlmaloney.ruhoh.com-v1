@@ -1,10 +1,10 @@
 ---
 RuhohSpec: '0.2'
 
-theme : twitter
+theme : ruhoh
 permalink: /:categories/:title
 
-production_url : http://sample.com
+production_url : http://praxis.rocketknowledge.com
 
 comments :
   provider : disqus
@@ -30,5 +30,5 @@ analytics :
 syntax :
   provider : google_prettify
   google_prettify : 
-      theme: twitter-bootstrap
+      theme: sunburst-custom
       linenums : true
