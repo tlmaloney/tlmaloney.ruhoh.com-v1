@@ -9,8 +9,8 @@ layout : page
 
 ### Biography
 
-I live in Manhattan. 
+I'm a Baruch MFE student. Currently interning at Autonomy Capital.
 
 ### Interests
 
-Programming, science, mathematics, and food.
+Chocolate bars, coffee, python programming, learning about Unix.
