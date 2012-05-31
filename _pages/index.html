@@ -1,13 +1,10 @@
 ---
-title: Home
-description:
+title: Latest
+description: Latest Posts
 
 layout : page
 ---
 
-<h3>Start</h3>
-<p>
-  Ruhoh is all about the command-line.
-  <br>Check out the goods:
-</p>
-<pre><code>$ ruhoh help</code></pre>
+  {{# posts }}
+    <li><a href="{{url}}">{{title}}</a></li>
+  {{/ posts }}
