@@ -39,7 +39,7 @@ Install git
 Create a file structure to store your repositories:
 
 	mkdir -p ~/hgdev/com.bitbucket/asmith
-	mkdir -p ~/gitdev/com.github/amsith
+	mkdir -p ~/gitdev/com.github/asmith
 
 ### Git SSH key
 
