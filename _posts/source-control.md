@@ -38,8 +38,8 @@ Install git
 
 Create a file structure to store your repositories:
 
-	mkdir -p ~/hgdev/com.bitbucket/tlamlnoey
-	mkdir -p ~/gitdev/com.github/tlmaloney/
+	mkdir -p ~/hgdev/com.bitbucket/asmith
+	mkdir -p ~/gitdev/com.github/amsith
 
 ### Git SSH key
 
