@@ -18,7 +18,15 @@ layout: post
 Installing BDB XML in Ubuntu
 ---------------------------
 
+### Prerequisites
+
+Have installed Xubuntu 12.04 in a Virtual Machine along the lines of [this guide](http://dpollini.ruhoh.com/installation/guided-installation-of-a-xubuntu-virtual-machine-for-developers/) (up until the Install Mercurial and Meld step).
+
+### Introduction
+
 Read [this](http://zeth.net/post/350/) for a little introduction to BDB XML.
+
+### Download and install
 
 Download BDB XML from [Oracle's web site](http://www.oracle.com/technetwork/products/berkeleydb/downloads/index.html). You'll need to create a login (free) if you don't have one already.
 
@@ -40,7 +48,7 @@ After which you can now build:
 	cd dbxml-2.5.16/
 	sh buildall.sh
 
-More build options can be [found here](http://docs.oracle.com/cd/E17276_01/html/ref_xml/xml_unix/intro.html)
+More build options can be [found here](http://docs.oracle.com/cd/E17276_01/html/ref_xml/xml_unix/intro.html).
 
 Once compilation is complete, the dbxml binary is located in
 

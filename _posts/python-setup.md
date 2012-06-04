@@ -1,6 +1,6 @@
 ---
 
-title: Installing packages for Python, Xubuntu 12.04
+title: Python packages installation for Developers
 date: '2012-06-04'
 description: Installing packages for Python, Xubuntu 12.04
 categories: sysadmin
@@ -21,7 +21,7 @@ layout: post
 ---
 ### Prerequisites
 
-You should have installed Xubuntu 12.04 along the lines of [this guide](http://dpollini.ruhoh.com/installation/guided-installation-of-a-xubuntu-virtual-machine-for-developers/) (up until the Install Mercurial and Meld step).
+Have installed Xubuntu 12.04 in a Virtual Machine along the lines of [this guide](http://dpollini.ruhoh.com/installation/guided-installation-of-a-xubuntu-virtual-machine-for-developers/) (up until the Install Mercurial and Meld step).
 
 ### Pip
 
@@ -35,7 +35,7 @@ Read about virtualenv [here](http://pypi.python.org/pypi/virtualenv) and about v
 
 	sudo pip install --upgrade pip virtualenv virtualenvwrapper
 
-For how to setup and work in a virtual environment, refer to the mint example [here](http://dpollini.ruhoh.com/installation/guided-installation-of-a-xubuntu-virtual-machine-for-developers/)
+For how to setup and work in a virtual environment, refer to the mint example [here](http://dpollini.ruhoh.com/installation/guided-installation-of-a-xubuntu-virtual-machine-for-developers/).
 
 ### Numerical Packages (numpy, scipy, pandas, matplotlib)
 
