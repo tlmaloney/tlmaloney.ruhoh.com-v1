@@ -9,6 +9,7 @@ tags:
     - precise
     - bdb
     - xml
+    - rlwrap
 
 layout: post
 
@@ -48,3 +49,19 @@ Once compilation is complete, the dbxml binary is located in
 I suggest either moving the binary, or making a symlink:
 
 	ln -s ~/Downloads/dbxml-2.5.16/install/bin/dbxml ~/bin/dbxml
+
+### Rlwrap
+
+I recommend using rlwrap to add input history and command completion.
+
+Install rlwrap
+
+	sudo apt-get install rlwrap
+
+Create a script in ~/bin called "start_dbxml.sh" to start dbxml:
+
+	#!/usr/bin/env bash
+	
+	mkdir -p $HOME/.rlwrap/dbxml/"`date +%Y%m%d`"
+	
+	rlwrap -rcl $HOME/.rlwrap/dbxml/`date +%Y%m%d`/`date +%H%M%S-%N`.log dbxml
