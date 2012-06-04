@@ -15,7 +15,7 @@ layout: post
 
 ---
 
-Create a BDB XML database file from yahoo-example.xml
+Create a BDB XML database
 ----------------
 
 First create a folder where your database files will live. Execute
@@ -34,11 +34,11 @@ Start up dbxml. Execute
 
 Create a new database container. At the prompt, execute
 
-	dbxml> createContainer yahoo-example.dbxml
+	dbxml> createContainer example.dbxml
 
-Add a document:
+Add an XML document:
 
-	dbxml> putDocument yahoo-example '/path/to/yahoo-example.dbxml'
+	dbxml> putDocument yahoo-example '/path/to/example.xml'
 
 Add an index corresponding to the deal level:
 
@@ -46,5 +46,5 @@ Add an index corresponding to the deal level:
 
 Now we can query our database, by for instance, finding all deal levels above a certain threshold. Let's find all deal levels above 620:
 
-	dbxml> query 'collection("yahoo-example.dbxml")/quoteEvents/quoteEvent[dealLevel > 620]'
+	dbxml> query 'collection("example.dbxml")/quoteEvents/quoteEvent[dealLevel > 620]'
 	dbxml> print
