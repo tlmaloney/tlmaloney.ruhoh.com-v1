@@ -42,7 +42,7 @@ Create a new database container. At the prompt, execute
 
 Add an XML document:
 
-	dbxml> putDocument example '/path/to/example.xml'
+	dbxml> putDocument example /path/to/example.xml f
 
 Add an index corresponding to the deal level:
 
