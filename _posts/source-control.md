@@ -21,6 +21,8 @@ Installing Version Control Software
 
 Have installed Xubuntu 12.04 in a Virtual Machine along the lines of [this guide](http://dpollini.ruhoh.com/installation/guided-installation-of-a-xubuntu-virtual-machine-for-developers/) (up until the Install Mercurial and Meld step).
 
+We use source control as explained [here](http://praxis.rocketknowledge.com/2011/11/source-control-with-mercurial-and.html).
+
 ### Mercurial and Git
 
 We're going to use two version control software packages, Mercurial and Git. Differences between the two can be found [here](http://stackoverflow.com/questions/35837/what-is-the-difference-between-mercurial-and-git).
