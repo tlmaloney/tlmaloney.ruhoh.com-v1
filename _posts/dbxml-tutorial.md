@@ -18,6 +18,10 @@ layout: post
 Create a BDB XML database
 ----------------
 
+### Prerequisites
+
+Have installed Xubuntu 12.04 in a Virtual Machine along the lines of [this guide](http://dpollini.ruhoh.com/installation/guided-installation-of-a-xubuntu-virtual-machine-for-developers/) (up until the Install Mercurial and Meld step).
+
 First create a folder where your database files will live. Execute
 
 	mkdir -p ~/dbxmldev
@@ -38,7 +42,7 @@ Create a new database container. At the prompt, execute
 
 Add an XML document:
 
-	dbxml> putDocument yahoo-example '/path/to/example.xml'
+	dbxml> putDocument example '/path/to/example.xml'
 
 Add an index corresponding to the deal level:
 
