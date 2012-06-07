@@ -1,0 +1,7 @@
+---
+RuhohSpec: '1.0'
+theme: ruhoh
+production_url: http://praxis.rocketknowledge.com
+posts:
+  permalink: /:categories/:title
+  exclude: 
