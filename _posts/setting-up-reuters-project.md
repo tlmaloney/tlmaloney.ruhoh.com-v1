@@ -58,11 +58,11 @@ Execute:
 
 	sudo apt-get install jython
 
-#### Install RFAj-7.2.0.E3
+### Install RFAj-7.2.0.E3
 
 Download [RFAj](https://aim.autonomycapital.com/@api/deki/files/2172/=rfaj7.2.0.E3.all.zip) (you'll need  your Autonomy login/passowrd) to ~/Downloads.
 
-Unzip:
+Unzip *twice*:
 
 	unzip ~/Downloads/rfaj7.2.0.E3.all.zip
 	unzip ~/Downloads/setup/rfaj7.2.0.E3.all.zip
@@ -86,29 +86,11 @@ Execute:
 ### Fork and clone
 Fork the repository located at https://bitbucket.org/cuddihyd/reut into your own bitbucket account, and then clone the fork onto your machine in ~/hgdev/org.bitbucket/asmith.
 
-### Create a new virtual environment
-
-Execute:
-
-	mkvirtualenv vereut
-
-Make a new directory for the virtual environment, if necessary. Execute:
-	
-	cd ~/vedev/vereut
-
-If you get an error that the directory does not exist, then execute:
-
-	mkdir ~/vedev/vereut
-
-Make a symlink. Execute:
-
-	ln -s ~/hgdev/org.bitbucket/asmith/reut ~/vedev/vereut
-
-Change your directory:
-
-	cd ~/vedev/vereut/reut
-
 ### Test the project
+
+Navigate into the root directory of the project
+
+	cd ~/hgdev/org.bitbucket/asmith/reut
 
 Make the RFA jar visible to Maven2:
 
